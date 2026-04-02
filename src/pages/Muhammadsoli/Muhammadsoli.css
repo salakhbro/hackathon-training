@@ -1,12 +1,57 @@
-.box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.container {
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* BUTTON */
+.toggle-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #4f6df5, #6a85ff);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.toggle-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(79, 109, 245, 0.3);
+}
+
+.toggle-btn:active {
+  transform: scale(0.96);
+}
+
+/* TITLE */
+.page {
+  margin-top: 20px;
+  font-size: 32px;
+  transition: 0.3s;
+}
+
+/* CARD */
+.box {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 25px;
+  border: 1px solid;
+  border-radius: 14px;
+  line-height: 1.6;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+
+/* LOGO */
 .logo {
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-    color: #000;
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+/* TEXT */
+.box p {
+  font-size: 15px;
+  opacity: 0.9;
 }

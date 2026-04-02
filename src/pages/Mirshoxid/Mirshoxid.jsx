@@ -16,12 +16,26 @@ function Mirshoxid() {
           <button onClick={() => setTheme('gray')}>Gray</button>
         </div>
         <div className="page-content">
-          <div>
-            <h1>Mirshohid Page</h1>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores numquam unde est architecto fugit reiciendis cum facilis perferendis alias voluptas in consequatur facere deserunt qui nostrum, quo maxime voluptatum minima maiores exercitationem molestiae repellat! Nobis assumenda amet obcaecati sequi sapiente. Corrupti, amet? Quos, commodi quas dolor tenetur quae repellat. Laborum!</h2>
-            <h3>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis enim error, itaque provident, voluptatum perferendis minima velit ea officia facere ipsam recusandae adipisci voluptatibus, quae sapiente inventore dignissimos cupiditate sunt fugiat possimus delectus iusto? Ea odio recusandae a itaque veniam impedit accusamus quod qui rem soluta. Dolor recusandae officia modi vero reprehenderit iste praesentium sequi tenetur provident facere laboriosam, odit reiciendis assumenda, delectus corporis nemo vel esse illum! Atque, libero.
-            </h3>
+          <div className="about-card about-card-large">
+            <h1>🚀 Mirshohid Zokirjonov</h1>
+            <p>
+              <strong>👋 Salom!</strong> Men <strong>Mirshohid Zokirjonov</strong> – dasturlashga jonbozlik bilan kirishgan multiple round developer.
+              Hozirgi kunda 6+ yillik tajribam bor va "code is poetry" deb hisoblayman.
+            </p>
+            <p>
+              <strong>🌐 Mutaxassislik:</strong> Frontend + Backend + DevOps.
+              Iloji boricha toza, qat'iy va testli kod yozishga urg‘u beraman.
+            </p>
+            <div className="tech-grid large">
+              <div className="tech-box thick-box">💻 JavaScript (React, Node.js)</div>
+              <div className="tech-box thick-box">🐍 Python (Django, FastAPI)</div>
+              <div className="tech-box thick-box">☕ Java (Spring Boot)</div>
+              <div className="tech-box thick-box">🛠️ C# (.NET Core, ASP.NET)</div>
+              <div className="tech-box thick-box">🐹 Go (Golang Web Services)</div>
+            </div>
+            <p className="about-note large-note">
+              Har bir texnologiya uchun individual maqsadlar qo‘yilgan: modular arxitektura, yuqori tezlik, puxta xavfsizlik.
+            </p>
           </div>
         </div>
       </div>

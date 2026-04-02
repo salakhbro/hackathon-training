@@ -1,0 +1,197 @@
+/* Light Theme */
+.light {
+  background-color: #ffffff;
+  color: #000000;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.light h1, .light h2, .light h3 {
+  color: #000000;
+}
+
+.light button {
+  background-color: #f0f0f0;
+  color: #000000;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.light button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Dark Theme */
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.dark h1, .dark h2, .dark h3 {
+  color: #ffffff;
+}
+
+.dark button {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #666;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dark button:hover {
+  background-color: #555555;
+}
+
+/* Blue Theme */
+.blue {
+  background-color: #007bff;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.blue h1, .blue h2, .blue h3 {
+  color: #ffffff;
+}
+
+.blue button {
+  background-color: #0056b3;
+  color: #ffffff;
+  border: 1px solid #004085;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.blue button:hover {
+  background-color: #004085;
+}
+
+/* Red Theme */
+.red {
+  background-color: #dc3545;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.red h1, .red h2, .red h3 {
+  color: #ffffff;
+}
+
+.red button {
+  background-color: #c82333;
+  color: #ffffff;
+  border: 1px solid #bd2130;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.red button:hover {
+  background-color: #bd2130;
+}
+
+/* Gray Theme */
+.gray {
+  background-color: #6c757d;
+  color: #000000;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.gray h1, .gray h2, .gray h3 {
+  color: #000000;
+}
+
+.gray button {
+  background-color: #5a6268;
+  color: #ffffff;
+  border: 1px solid #545b62;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.gray button:hover {
+  background-color: #545b62;
+}
+
+/* Layout to avoid sidebar */
+.page-wrapper {
+  min-height: 100vh;
+}
+
+.page-content {
+  margin-left: 220px; /* same as sidebar width */
+  max-width: calc(100% - 240px);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .page-content {
+    margin-left: 0;
+    max-width: 100%;
+    padding: 15px;
+  }
+  .page-wrapper {
+    padding-top: 120px; /* if sidebar over content or pop out on mobile */
+  }
+}
+
+@media (max-width: 600px) {
+  .page-wrapper {
+    padding-top: 140px;
+  }
+  .page-content h1 {
+    font-size: 1.6em;
+  }
+  .page-content h2 {
+    font-size: 1.2em;
+  }
+  .page-content h3 {
+    font-size: 1em;
+  }
+  .page-content button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+/* Common styles */
+div {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
